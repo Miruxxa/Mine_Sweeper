@@ -28,4 +28,7 @@ public class Game {
         flag.setOpenedToBox (coord);
 
     }
+    public void pressRightButton(Coord coord) {
+        flag.toggleFlagedToBox(coord);
+    }
 }
